@@ -1,5 +1,5 @@
 <!-- BEGIN_TF_DOCS -->
-
+# Azure Search Service Module
 
 <!-- markdownlint-disable MD033 -->
 ## Requirements

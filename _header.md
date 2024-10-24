@@ -1,1 +1,1 @@
-# AllState Modules
+# Azure Search Service Module
