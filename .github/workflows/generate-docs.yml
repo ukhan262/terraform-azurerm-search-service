@@ -40,6 +40,11 @@ jobs:
         run: |
           /usr/local/bin/terraform-docs -c .terraform-docs.yml .
 
+      - name: Cleanup Binaries
+        run: |
+          rm -f ./LICENSE
+          rm -f ./terraform-docs.tar.gz
+
       - name: Commit and Push Changes
         run: |
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
