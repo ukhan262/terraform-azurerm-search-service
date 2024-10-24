@@ -8,6 +8,7 @@ variable "srch_info_deploy_mode" {
 }
 
 variable "name" {
+  description = "name of the service"
   type = string
 }
 
